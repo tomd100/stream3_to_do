@@ -25,7 +25,9 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['stream3-to-do-tomd100.c9users.io']
+ALLOWED_HOSTS = [
+    'stream3-to-do-tomd100.c9users.io', 
+    'stream3-todo.herokuapp.com']
 
 
 # Application definition
